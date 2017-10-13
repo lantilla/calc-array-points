@@ -102,7 +102,7 @@ func avg(nums: [Int?]) -> Int? {
 
 // generic math operation function
 // can be called like mathResult(count, a:x)
-func mathResult(_ mathFunc: ([Int]) -> Int, a:[Int])-> Int {
+func mathResult(_ mathFunc: ([Int?]) -> Int?, a:[Int?])-> Int? {
     return mathFunc(a)
 }
 
